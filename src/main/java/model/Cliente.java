@@ -4,24 +4,30 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.validation.constraints.Size;
 import java.util.Date;
 
 @Entity
 public class Cliente {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Integer id_cliente;
+    @Size(max = 45)
     private String nome;
+    @Size(max = 15)
     private int cpf;
+    @Size(max = 15)
     private int telefone_1;
+    @Size(max = 15)
     private int telefone_2;
+    private String email;
     private Date dt_nascimento;
 
-    public Integer getId() {
-        return id;
+    public Integer getId_cliente() {
+        return id_cliente;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setId_cliente(Integer id_cliente) {
+        this.id_cliente = id_cliente;
     }
 
     public String getNome() {
@@ -54,6 +60,14 @@ public class Cliente {
 
     public void setTelefone_2(int telefone_2) {
         this.telefone_2 = telefone_2;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public Date getDt_nascimento() {
