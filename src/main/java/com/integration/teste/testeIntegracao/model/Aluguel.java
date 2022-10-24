@@ -1,4 +1,4 @@
-package model;
+package com.integration.teste.testeIntegracao.model;
 
 import javax.persistence.*;
 import java.util.Date;
