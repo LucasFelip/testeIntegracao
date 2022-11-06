@@ -2,7 +2,7 @@ package com.integration.teste.testeIntegracao.model;
 
 import javax.persistence.*;
 import javax.validation.constraints.Size;
-import java.util.Date;
+import java.time.LocalDate;
 
 @Entity
 public class Locacao {
@@ -17,9 +17,9 @@ public class Locacao {
     private float valor_aluguel;
     @Size(min = 2, max = 5)
     private float percentual_multa;
-    private Date dt_vencimento;
-    private Date dt_inicio;
-    private Date dt_fim;
+    private LocalDate dt_vencimento;
+    private LocalDate dt_inicio;
+    private LocalDate dt_fim;
     private Boolean ativo;
     private String obs;
 
@@ -63,27 +63,27 @@ public class Locacao {
         this.percentual_multa = percentual_multa;
     }
 
-    public Date getDt_vencimento() {
+    public LocalDate getDt_vencimento() {
         return dt_vencimento;
     }
 
-    public void setDt_vencimento(Date dt_vencimento) {
+    public void setDt_vencimento(LocalDate dt_vencimento) {
         this.dt_vencimento = dt_vencimento;
     }
 
-    public Date getDt_inicio() {
+    public LocalDate getDt_inicio() {
         return dt_inicio;
     }
 
-    public void setDt_inicio(Date dt_inicio) {
+    public void setDt_inicio(LocalDate dt_inicio) {
         this.dt_inicio = dt_inicio;
     }
 
-    public Date getDt_fim() {
+    public LocalDate getDt_fim() {
         return dt_fim;
     }
 
-    public void setDt_fim(Date dt_fim) {
+    public void setDt_fim(LocalDate dt_fim) {
         this.dt_fim = dt_fim;
     }
 

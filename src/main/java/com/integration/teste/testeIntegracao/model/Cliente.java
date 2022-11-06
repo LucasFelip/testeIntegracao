@@ -5,6 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.constraints.Size;
+import java.time.LocalDate;
 import java.util.Date;
 
 @Entity
@@ -20,7 +21,7 @@ public class Cliente {
     @Size(max = 15)
     private int telefone_2;
     private String email;
-    private Date dt_nascimento;
+    private LocalDate dt_nascimento;
 
     public Integer getId_cliente() {
         return id_cliente;
@@ -70,11 +71,11 @@ public class Cliente {
         this.email = email;
     }
 
-    public Date getDt_nascimento() {
+    public LocalDate getDt_nascimento() {
         return dt_nascimento;
     }
 
-    public void setDt_nascimento(Date dt_nascimento) {
+    public void setDt_nascimento(LocalDate dt_nascimento) {
         this.dt_nascimento = dt_nascimento;
     }
 }
