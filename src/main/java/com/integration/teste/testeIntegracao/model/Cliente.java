@@ -1,81 +1,45 @@
 package com.integration.teste.testeIntegracao.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import lombok.*;
+
+import javax.persistence.*;
 import javax.validation.constraints.Size;
 import java.time.LocalDate;
-import java.util.Date;
+import java.util.List;
 
 @Entity
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
 public class Cliente {
-    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id_cliente;
+    @Id @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id_cliente")
+    private Integer id;
+
     @Size(max = 45)
+    @Column(name = "nome_cliente")
     private String nome;
+
     @Size(max = 15)
+    @Column(name = "cpf")
     private int cpf;
+
     @Size(max = 15)
-    private int telefone_1;
+    @Column(name = "telefone1")
+    private int telefone1;
+
     @Size(max = 15)
-    private int telefone_2;
+    @Column(name = "telefone2")
+    private int telefone2;
+
+    @Column(name = "email")
     private String email;
-    private LocalDate dt_nascimento;
 
-    public Integer getId_cliente() {
-        return id_cliente;
-    }
+    @Column(name = "dt_nascimento")
+    private LocalDate dataNascimento;
 
-    public void setId_cliente(Integer id_cliente) {
-        this.id_cliente = id_cliente;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public int getCpf() {
-        return cpf;
-    }
-
-    public void setCpf(int cpf) {
-        this.cpf = cpf;
-    }
-
-    public int getTelefone_1() {
-        return telefone_1;
-    }
-
-    public void setTelefone_1(int telefone_1) {
-        this.telefone_1 = telefone_1;
-    }
-
-    public int getTelefone_2() {
-        return telefone_2;
-    }
-
-    public void setTelefone_2(int telefone_2) {
-        this.telefone_2 = telefone_2;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public LocalDate getDt_nascimento() {
-        return dt_nascimento;
-    }
-
-    public void setDt_nascimento(LocalDate dt_nascimento) {
-        this.dt_nascimento = dt_nascimento;
-    }
+    @OneToMany(cascade = CascadeType.ALL)
+    @JoinTable (joinColumns = @JoinColumn ( name =" id_cliente"), inverseJoinColumns = @JoinColumn ( name =" id_locacao "))
+    private List<Locacao> locacoes;
 }
