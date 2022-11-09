@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00698015-c8fd-48b2-8dda-10c3624aff23" name="Changes" comment="LUC-30 Create service for test to Cliente and Imovel" />
+    <list default="true" id="00698015-c8fd-48b2-8dda-10c3624aff23" name="Changes" comment="LUC-30 Clear flyway migration to definitive process to define a database">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/builder/AluguelBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/builder/AluguelBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/builder/ClienteBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/builder/ClienteBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/builder/ImovelBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/builder/ImovelBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/builder/LocacaoBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/builder/LocacaoBuilder.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667954955699</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="LUC-30 Clear flyway migration to definitive process to define a database">
+      <created>1668017127443</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668017127443</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +203,7 @@
     <MESSAGE value="LUC-30 Update persistence.xml" />
     <MESSAGE value="LUC-30 Create repository for test to Cliente and Imovel" />
     <MESSAGE value="LUC-30 Create service for test to Cliente and Imovel" />
-    <option name="LAST_COMMIT_MESSAGE" value="LUC-30 Create service for test to Cliente and Imovel" />
+    <MESSAGE value="LUC-30 Clear flyway migration to definitive process to define a database" />
+    <option name="LAST_COMMIT_MESSAGE" value="LUC-30 Clear flyway migration to definitive process to define a database" />
   </component>
 </project>

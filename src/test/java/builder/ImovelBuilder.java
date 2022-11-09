@@ -1,17 +1,19 @@
 package builder;
 
-import org.integracao.teste.model.Imovel;
-import org.integracao.teste.service.ImovelService;
+import lombok.Builder;
+import lombok.Data;
 
+@Data
+@Builder
 public class ImovelBuilder {
-    private Imovel imovel;
-    private ImovelService service;
-
-    private ImovelBuilder(Integer id) {
-        this.imovel = service.buscarImovel(id);
-    }
-
-    public Imovel construirImovel(){
-        return imovel;
-    }
+    private String endereco;
+    private String bairro;
+    private int cep;
+    private int metragem;
+    private int dormitorio;
+    private int banheiro;
+    private int suites;
+    private String tipo;
+    private int vagasGaragem;
+    private int valorSugerido;
 }
