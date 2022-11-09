@@ -1,6 +1,8 @@
 package org.integracao.teste.model;
 
 import lombok.*;
+import org.integracao.teste.utils.definiEntidade;
+
 import javax.persistence.*;
 import javax.validation.constraints.Size;
 import java.time.LocalDate;
@@ -17,12 +19,11 @@ public class Locacao implements definiEntidade<Integer> {
     @Column(name = "id_locacao")
     private Integer id;
 
-    @Column(name = "id_cliente")
+    @JoinColumn(name = "id_cliente", referencedColumnName = "id_cliente")
     @ManyToOne(cascade = {CascadeType.MERGE, CascadeType.PERSIST})
     private Cliente cliente;
 
-    @Column(name = "id_imovel")
-    @ManyToOne(cascade = {CascadeType.MERGE, CascadeType.PERSIST})
+    @ManyToOne(cascade = CascadeType.REFRESH, targetEntity = Imovel.class)
     private Imovel imovel;
 
     @Column(name = "alugueis")

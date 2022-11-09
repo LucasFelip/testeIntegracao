@@ -1,6 +1,8 @@
 package org.integracao.teste.model;
 
 import lombok.*;
+import org.integracao.teste.utils.definiEntidade;
+
 import javax.persistence.*;
 import java.time.LocalDate;
 import javax.validation.constraints.Size;
@@ -10,7 +12,7 @@ import javax.validation.constraints.Size;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class Aluguel implements definiEntidade<Integer>{
+public class Aluguel implements definiEntidade<Integer> {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id_aluguel")
@@ -20,7 +22,7 @@ public class Aluguel implements definiEntidade<Integer>{
     private LocalDate dataVencimento;
 
     @ManyToOne(cascade = {CascadeType.MERGE, CascadeType.PERSIST})
-    @Column(name = "valor_pago")
+    @JoinColumn(name = "id_locacao", nullable = false)
     private Locacao locacao;
 
     @Size(min = 10, max = 2)

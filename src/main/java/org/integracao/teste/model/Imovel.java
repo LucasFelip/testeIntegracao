@@ -1,6 +1,8 @@
 package org.integracao.teste.model;
 
 import lombok.*;
+import org.integracao.teste.utils.definiEntidade;
+
 import javax.persistence.*;
 import javax.validation.constraints.Size;
 import java.util.List;
@@ -10,7 +12,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class Imovel implements definiEntidade<Integer>{
+public class Imovel implements definiEntidade<Integer> {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id_imovel")

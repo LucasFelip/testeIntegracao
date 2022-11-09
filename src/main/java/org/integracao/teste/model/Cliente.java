@@ -1,6 +1,8 @@
 package org.integracao.teste.model;
 
 import lombok.*;
+import org.integracao.teste.utils.definiEntidade;
+
 import javax.persistence.*;
 import javax.validation.constraints.Size;
 import java.time.LocalDate;

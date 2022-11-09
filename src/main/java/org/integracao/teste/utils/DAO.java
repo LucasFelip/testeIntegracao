@@ -1,7 +1,5 @@
 package org.integracao.teste.utils;
 
-import org.integracao.teste.model.definiEntidade;
-
 import javax.persistence.*;
 import java.util.List;
 import java.util.Objects;
