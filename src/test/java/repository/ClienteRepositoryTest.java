@@ -32,9 +32,8 @@ public class ClienteRepositoryTest {
     @Test
     void deveCriarClienteNovo() {
         var clienteNovo = new Cliente();
-
         clienteNovo.setCpf(957);
-        clienteNovo.setEmail("astrogildo@email.com");
+        clienteNovo.setEmail("manu@email.com");
         clienteNovo.setDataNascimento(LocalDate.now());
         clienteNovo.setTelefone1(9899999-9999);
         clienteNovo.setTelefone1(99999-9998);
@@ -48,7 +47,6 @@ public class ClienteRepositoryTest {
     @Test
     void deveAtualizarCliente() {
         var clienteNovo = new Cliente();
-
         clienteNovo.setCpf(957);
         clienteNovo.setEmail("jc@email.com");
         clienteNovo.setDataNascimento(LocalDate.now());

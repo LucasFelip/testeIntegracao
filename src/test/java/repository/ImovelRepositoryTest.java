@@ -18,7 +18,7 @@ public class ImovelRepositoryTest {
 
     @BeforeEach
     void setup() {
-        var factory = Persistence.createEntityManagerFactory("bank_test");
+        var factory = Persistence.createEntityManagerFactory("bank_prod");
         manager = factory.createEntityManager();
         repository = new ImovelRepository(manager);
     }
