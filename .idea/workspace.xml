@@ -4,38 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00698015-c8fd-48b2-8dda-10c3624aff23" name="Changes" comment="LUC-30 Update Project">
-      <change afterPath="$PROJECT_DIR$/src/test/java/builder/AluguelBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/builder/ImovelBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/builder/LocacaoBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/repository/ClienteRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/repository/ImovelRepositoryTest.java" afterDir="false" />
+    <list default="true" id="00698015-c8fd-48b2-8dda-10c3624aff23" name="Changes" comment="LUC-30 Update Project Again">
+      <change afterPath="$PROJECT_DIR$/src/test/java/service/ClienteServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/service/ImovelServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/integration/teste/testeIntegracao/TesteIntegracaoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/integration/teste/testeIntegracao/model/Aluguel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/integration/teste/testeIntegracao/model/Cliente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/integration/teste/testeIntegracao/model/Imovel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/integration/teste/testeIntegracao/model/Locacao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/integration/teste/testeIntegracao/repository/AluguelRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/integration/teste/testeIntegracao/repository/ClienteRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/integration/teste/testeIntegracao/repository/ImovelRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/integration/teste/testeIntegracao/repository/LocacaoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/integration/teste/testeIntegracao/service/ClienteService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/integration/teste/testeIntegracao/utils/DataUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/integration/teste/testeIntegracao/utils/exception/LocacaoNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/integration/teste/testeIntegracao/utils/exception/ResourceNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/integration/teste/testeIntegracao/utils/exception/ValorAluguelInvalidoException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/integracao/teste/model/Aluguel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/integracao/teste/model/Aluguel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/integracao/teste/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/integracao/teste/model/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/integracao/teste/model/Imovel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/integracao/teste/model/Imovel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/integracao/teste/model/Locacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/integracao/teste/model/Locacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/integracao/teste/model/definiEntidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/integracao/teste/utils/definiEntidade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/integracao/teste/utils/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/integracao/teste/utils/DAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/builder/ClienteBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/builder/ClienteBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/integration/teste/testeIntegracao/TesteIntegracaoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/integration/teste/testeIntegracao/builder/ClienteBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/integration/teste/testeIntegracao/repository/AluguelRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/integration/teste/testeIntegracao/repository/ClienteRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/repository/ClienteRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/repository/ClienteRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/repository/ImovelRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/repository/ImovelRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,39 +43,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ImovelRepositoryTest">
-    <configuration name="ClienteRepositoryTest.deveAtualizarUmClienteNoBancoDeDadosPorId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testeIntegracao" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="repository" />
-      <option name="MAIN_CLASS_NAME" value="repository.ClienteRepositoryTest" />
-      <option name="METHOD_NAME" value="deveAtualizarUmClienteNoBancoDeDadosPorId" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClienteRepositoryTest.deveBuscarClienteNoBancoDeDadosPorID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testeIntegracao" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="repository" />
-      <option name="MAIN_CLASS_NAME" value="repository.ClienteRepositoryTest" />
-      <option name="METHOD_NAME" value="deveBuscarClienteNoBancoDeDadosPorID" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ImovelRepositoryTest.deveSalvar">
     <configuration name="ClienteRepositoryTest.deveRemoverUmClienteNoBancoDeDadosAPartirDoID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testeIntegracao" />
       <extension name="coverage">
@@ -117,17 +60,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClienteRepositoryTest.deveSalvarUmNovoClienteNoBancoDeDados" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClienteServiceTest.deveSalvarUmNovoCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testeIntegracao" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="repository.*" />
+          <option name="PATTERN" value="service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="repository" />
-      <option name="MAIN_CLASS_NAME" value="repository.ClienteRepositoryTest" />
-      <option name="METHOD_NAME" value="deveSalvarUmNovoClienteNoBancoDeDados" />
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.ClienteServiceTest" />
+      <option name="METHOD_NAME" value="deveSalvarUmNovoCliente" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,13 +91,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ImovelRepositoryTest.deveSalvar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testeIntegracao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.ImovelRepositoryTest" />
+      <option name="METHOD_NAME" value="deveSalvar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImovelServiceTest.deveSalvarUmNovoImovel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testeIntegracao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.ImovelServiceTest" />
+      <option name="METHOD_NAME" value="deveSalvarUmNovoImovel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ImovelRepositoryTest.deveSalvar" />
+        <item itemvalue="JUnit.ImovelServiceTest.deveSalvarUmNovoImovel" />
+        <item itemvalue="JUnit.ClienteServiceTest.deveSalvarUmNovoCliente" />
         <item itemvalue="JUnit.ImovelRepositoryTest" />
         <item itemvalue="JUnit.ClienteRepositoryTest.deveRemoverUmClienteNoBancoDeDadosAPartirDoID" />
-        <item itemvalue="JUnit.ClienteRepositoryTest.deveBuscarClienteNoBancoDeDadosPorID" />
-        <item itemvalue="JUnit.ClienteRepositoryTest.deveAtualizarUmClienteNoBancoDeDadosPorId" />
-        <item itemvalue="JUnit.ClienteRepositoryTest.deveSalvarUmNovoClienteNoBancoDeDados" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667948631965</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="LUC-30 Update Project Again">
+      <created>1667954192376</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667954192376</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +172,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LUC-30 Update Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="LUC-30 Update Project" />
+    <MESSAGE value="LUC-30 Update Project Again" />
+    <option name="LAST_COMMIT_MESSAGE" value="LUC-30 Update Project Again" />
   </component>
 </project>
